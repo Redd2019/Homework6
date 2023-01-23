@@ -9,6 +9,7 @@ public class Main {
         task7();
         task8();
         task9();
+        task10();
     }
 
     public static void task1() {
@@ -78,6 +79,16 @@ public class Main {
             total = total + total / 100;
             total = total + money;
             System.out.println("Месяц " + a + ", сумма накоплений равна " + total + " рублей.");
+        }
+    }
+
+    public static void task10() {
+        System.out.println("Задание 10");
+        int number = 2;
+        int total = 0;
+                for (int a = 1; a >= 1 && a<= 10; a++){
+                        total = number  * a;
+                    System.out.println(number + "*"+ a + "=" + total);
         }
     }
 }
