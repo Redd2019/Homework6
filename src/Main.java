@@ -5,6 +5,7 @@ public class Main {
         task3();
         task4();
         task5();
+        task6();
     }
 
     public static void task1() {
@@ -39,6 +40,13 @@ public class Main {
         System.out.println("Задание 5");
         for (int a = 1904; a <= 2096; a = a + 4){
             System.out.println(a + " год является високосным.");
+        }
+    }
+
+    public static void task6() {
+        System.out.println("Задание 6");
+        for (int a = 7; a <= 98; a = a + 7){
+            System.out.println(a);
         }
     }
 }
